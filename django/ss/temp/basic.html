@@ -1,0 +1,28 @@
+<html>
+<head>
+<title>{%block title%} {% endblock%}</title>
+<style>
+	{%block css%} {% endblock%}
+</style>
+<head>
+<body>
+<center>
+<table  cellpadding="5" bgcolor='black' width='100%' height='2%'>
+	<th><font size='9'color='#959600'>Awsome</font></th>
+	<th><font size='6'color='#959600'>Home</font></th>
+	<th><font size='6'color='#959600'>About</font></th>
+	<th><font size='6'color='#959600'>Contact</font></th>
+	<th></th>
+	<th></th>
+	<th></th>
+	<th align="right " width="50%">
+	<form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"  >
+        <button class="btn btn-outline-success" type="submit"><font size='4'>Search</font></button>
+    </form>
+	</th>
+</table>
+</center>
+{%block body%} {% endblock%}
+</body>
+</html>
